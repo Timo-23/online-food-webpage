@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+    <link rel="stylesheet"type="text/css"href="styler.css">
+</head>
+<body>
+    <section class="contact">
+    <div id="ContactUs">
+        <ul id="navcontent">
+            <ul id="navcontent">
+                <li><a href="index.html">Home </a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
+            </ul>
+        
+        </ul>
+        <h1>Contact Us</h1>
+        <form action="#">
+            <div class="form-shape">
+                <label for="query">
+                    Type of query
+                </label>
+                <select name="myQuery" id="query">
+                    <option value="sel"Selected>
+                        Select 
+                    </option>
+                    <option value="ord">
+                        Order related Issue
+                    </option>
+                    <option value="site">
+                         Site related Issue
+                    </option>
+                    <option value="fed">
+                        Complaint related Issue
+                    </option>
+                </select>
+            </div>
+            <div class="form-shape">
+                <label for="name">Name</label>
+                <input type="text" name="myName"
+                id="name"
+                placeholder="Enter your Name">
+            </div>
+            <div class="form-shape">
+                <label for="email">Email</label>
+                <input type="email" name="myEmail"
+                id="email"
+                placeholder="Enter your email">
+            </div>
+            <div class="form-shape">
+                <label for="pho">Phone Number</label>
+                <input type="phone" name="myPhone"
+                id="pho"
+                placeholder="Enter your Phone NO">
+            </div>
+            <div class="radio">
+                Are you a member of debby's Kitchen:
+                Yes <input type="radio" name="eligible">
+                No <input type="radio" name="eligible">
+            </div>
+            <div class="form-shape">
+                <label for="message">
+                   <p id="text">Ellaborate your query</p>
+                </label>
+                <textarea name="msg" id="message"
+                cols="30" rows="10"></textarea>
+            </div>
+              <button type="sumbit">Submit</button>
+              <button type="reset">Reset</button>
+        
+              
+        </form>
+    
+    </section>
+</body>
+</html>
